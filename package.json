@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "author": "creasty",
+  "name": "css-better-practice",
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "node": "0.10.32"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.8.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-plumber": "^1.0.1"
+  },
+  "dependencies": {}
+}
