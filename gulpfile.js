@@ -22,7 +22,7 @@ gulp.task('server', function() {
 });
 
 gulp.task('sass', function () {
-    gulp.src('./scss/{layouts/*,**/shared}/app.scss')
+    gulp.src('./scss/**/app.scss')
         .pipe(plumber())
         .pipe(compass({
             config_file: './compass.rb',
@@ -30,7 +30,6 @@ gulp.task('sass', function () {
             css:         './public/css',
             comments:    true,
             style:       'expanded',
-            // bundle_exec: true,
         }))
         .pipe(autoprefixer({
             cascade: false,
