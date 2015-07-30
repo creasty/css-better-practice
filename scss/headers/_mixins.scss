@@ -40,26 +40,3 @@
 @function bp-color($name) {
   @return find($colors, $name);
 }
-
-
-
-
-@mixin global-nav() {
-  background: black;
-  color: white;
-  width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
