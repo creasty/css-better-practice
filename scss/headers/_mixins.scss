@@ -22,3 +22,14 @@
     @content;
   }
 }
+
+
+/*=== Get value for key from pseudo-map structure
+==============================================================================================*/
+@function find($vars, $key) {
+  @each $var in $vars {
+    @if nth($var, 1) == $key {
+      @return nth($var, 2);
+    }
+  }
+}
