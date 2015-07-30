@@ -30,6 +30,7 @@ gulp.task('sass', function () {
             css:         './public/css',
             comments:    true,
             style:       'expanded',
+            bundle_exec: true,
         }))
         .pipe(autoprefixer({
             cascade: false,
