@@ -12,7 +12,8 @@
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.3.1",
     "gulp-compass": "^2.1.0",
-    "gulp-plumber": "^1.0.1"
+    "gulp-plumber": "^1.0.1",
+    "gulp-styledocco": "0.0.3"
   },
   "dependencies": {}
 }

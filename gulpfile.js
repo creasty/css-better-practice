@@ -2,12 +2,24 @@
 
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync  = require('browser-sync');
+var compass      = require('gulp-compass');
 var gulp         = require('gulp');
 var plumber      = require('gulp-plumber');
-var compass      = require('gulp-compass');
+var styledocco   = require('gulp-styledocco');
 
 
-gulp.task('server', function() {
+gulp.task('docs', function () {
+    gulp.src('./scss/components/**/*.scss')
+        .pipe(plumber())
+        .pipe(styledocco({
+            out:          './docs',
+            name:         'Components',
+            preprocessor: __dirname + '/preprocess',
+            'no-minify':  true,
+        }));
+});
+
+gulp.task('server', function () {
     browserSync({
         server: {
             ui:      false,
