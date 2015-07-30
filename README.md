@@ -3,7 +3,8 @@ CSS Better Practice
 
 This is the repo for keynote "Clean and Unbreakable CSS."
 
-Event page: http://wantedly.connpass.com/event/18018
+- Event: http://wantedly.connpass.com/event/18018
+- Slide: https://speakerdeck.com/creasty/clean-and-unbreakable-css
 
 
 Bootstrap
