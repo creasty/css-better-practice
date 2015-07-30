@@ -1,0 +1,18 @@
+// scss/components/_btn.scss
+
+@mixin btn($type: default, $size: regular) {
+  padding: 6px;
+  color: white;
+
+  @if $type == default {
+    background: green;
+  } @else if $type == submit {
+    background: blue;
+  }
+
+  @if $size == regular {
+    padding: 6px;
+  } @else if $size == large {
+    padding: 60px;
+  }
+}

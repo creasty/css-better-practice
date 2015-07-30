@@ -1,0 +1,13 @@
+// scss/layouts/main/views/posts/_index.scss
+
+@mixin page-scope('posts#index') {
+  .btn {
+    @include btn;
+  }
+  .btn-2 {
+    @include btn(
+      $type: submit,
+      $size: large
+    );
+  }
+}
