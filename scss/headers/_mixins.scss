@@ -33,3 +33,10 @@
     }
   }
 }
+
+
+/*  Color helper
+-----------------------------------------------*/
+@function bp-color($name) {
+  @return find($colors, $name);
+}
