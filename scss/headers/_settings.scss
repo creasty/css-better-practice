@@ -1,6 +1,6 @@
-// Color schema from:
+/*  Color schema
+-----------------------------------------------*/
 // http://designmodo.github.io/Flat-UI
-//
 $colors:
   light-gray #ECF0F1,
   gray       #95A5A6,
@@ -13,3 +13,8 @@ $colors:
   red        #E74C3C,
 
   TERMINATOR black;
+
+
+/*  Font
+-----------------------------------------------*/
+$font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
