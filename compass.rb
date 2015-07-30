@@ -1,3 +1,5 @@
+require 'sass-globbing'
+
 module SassExtention
 
   def split(str, delimiter)
